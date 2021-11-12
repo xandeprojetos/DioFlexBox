@@ -1,2 +1,2 @@
 # DioFlexBox
- FlexBox Curso
+ Repositório dedicado ao curso de FlexBox
