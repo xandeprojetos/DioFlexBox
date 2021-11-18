@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Grow</title>
+    <style>
+        .flex-container{
+            max-width: 350px;
+            border: solid 2px black;
+            display: flex;
+
+        }
+
+        .item{
+            background-color: chocolate;
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+
+            
+        }
+
+        .item-fg0{
+            flex-grow: 0;
+        }
+
+        .item-fg1{
+            flex-grow: 1;
+        }
+
+        .item-fg2{
+            flex-grow: 2;
+        }
+    </style>
+</head>
+<body>
+    <p>flex grow:0</p>
+    <div class="flex-container">
+        <intem class="item item-fg0">A</intem>
+        <intem class="item item-fg0">B</intem>
+        <intem class="item item-fg0">C</intem>
+    </div>
+
+    <p>flex grow:1</p>
+    <div class="flex-container">
+        <intem class="item item-fg1">A</intem>
+        <intem class="item item-fg1">B</intem>
+        <intem class="item item-fg1">C</intem>
+    </div>
+
+    <p>flex grow:2</p>
+    <div class="flex-container">
+        <intem class="item item-fg2">A</intem>
+        <intem class="item item-fg1">B</intem>
+        <intem class="item item-fg2">C</intem>
+    </div>
+    
+</body>
+</html>
